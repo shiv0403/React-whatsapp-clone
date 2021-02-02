@@ -5,7 +5,7 @@
 }
 
 .chat__header {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
 }
@@ -18,10 +18,12 @@
 .chat__headerInfo > h3 {
   margin-bottom: 3px;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .chat__headerInfo > p {
   color: gray;
+  font-size: 0.8rem;
 }
 
 .chat__body {
@@ -79,7 +81,11 @@
   padding: 10px;
   border: none;
   outline: none;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .chat__footer > form > button {
